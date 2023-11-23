@@ -55,15 +55,18 @@
 	background-color: #e8e6e3;
 	padding: 0.2rem 0.7rem;
 	border-radius: 10px;
-	color: #282828;
 	transition: 0.2s;
 }
 
+.link > a,
+.link > a :hover {
+	color: #121212 !important;
+}
 .link button {
-    background-color: transparent;
-    margin: 0;
+	background-color: transparent;
+	margin: 0;
 	padding: 0.2rem 0.7rem;
-    color:#646cff
+	color: #646cff;
 }
 
 .link:hover {
