@@ -1,0 +1,40 @@
+.parent {
+	width: 100vw;
+    height: 100vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.children_1,
+.children_2 {
+	width: 50%;
+    height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.children_2{
+    padding: 0 6vw 0 6vw;
+}
+
+.get_started {
+    margin-top: 3vh;
+    margin-right: 3vw;
+    border-radius: 25px;
+	display: flex;
+	justify-content: center;
+    background-color: #89D0f2;
+}
+
+.get_started > a {
+    color: #282828;
+    height: 100%;
+    padding: 12px 16px;
+}
+
+.get_started:hover > a:hover {
+    color: #282828;
+}

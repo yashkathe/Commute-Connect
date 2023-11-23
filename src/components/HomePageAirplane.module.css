@@ -1,6 +1,8 @@
 .parent {
-	margin-left: 15vw;
 	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .parent_airplane {
