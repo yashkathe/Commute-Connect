@@ -2,13 +2,13 @@ import { Routes, Route } from "react-router-dom";
 import { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 
-import Home from "./components/Home";
-import Signin from "./components/Signin";
-import Signup from "./components/Signup";
-import UserHome from "./components/UserHome";
+import Home from "./pages/Home";
+import Signin from "./pages/Signin";
+import Signup from "./pages/Signup";
+import UserHome from "./pages/UserHome";
 import Header from "./shared/Header";
-import CreatePostForm from "./components/CreatePost";
-import UserPosts from "./components/UserPosts";
+import CreatePostForm from "./pages/CreatePost";
+import UserPosts from "./pages/UserPosts";
 
 import { AuthContext } from "../src/Context/auth-context";
 

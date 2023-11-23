@@ -1,0 +1,40 @@
+.parent {
+	margin-left: 15vw;
+	position: relative;
+}
+
+.parent_airplane {
+	width: 20vw;
+	position: relative;
+}
+
+.plane {
+	max-height: auto;
+	max-width: 100%;
+}
+
+.parent_clouds1 {
+	position: absolute;
+	top: -5%;
+	right: -20%;
+	width: 10vw;
+	z-index: -1;
+}
+
+.parent_clouds1 > .clouds {
+	max-height: auto;
+	max-width: 100%;
+}
+
+.parent_clouds2 {
+	position: absolute;
+	bottom: -3%;
+	left: -20%;
+	width: 10vw;
+	z-index: 1;
+}
+
+.parent_clouds2 > .clouds {
+	max-height: auto;
+	max-width: 100%;
+}
