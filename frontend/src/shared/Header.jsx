@@ -15,21 +15,15 @@ const Header = () => {
 		links = (
 			<div className={styles.links}>
 				<div className={styles.link}>
-					<Link to='/' className=' '>
-						User Home
-					</Link>
+					<Link to='/'>User Home</Link>
 				</div>
 
 				<div className={styles.link}>
-					<Link to='/create-post' className=' '>
-						Create Post
-					</Link>
+					<Link to='/create-post'>Create Post</Link>
 				</div>
 
 				<div className={styles.link}>
-					<Link to={`/posts/${auth.userId}`} className=' '>
-						My Posts
-					</Link>
+					<Link to={`/posts/${auth.userId}`}>My Posts</Link>
 				</div>
 
 				<div className={styles.link}>
@@ -41,15 +35,11 @@ const Header = () => {
 		links = (
 			<div className={styles.links}>
 				<div className={styles.link}>
-					<Link to='/signup' className=' '>
-						Sign Up
-					</Link>
+					<Link to='/signup'>Sign Up</Link>
 				</div>
 
 				<div className={styles.link}>
-					<Link to='/login' className=''>
-						Login
-					</Link>
+					<Link to='/login'>Login</Link>
 				</div>
 			</div>
 		);

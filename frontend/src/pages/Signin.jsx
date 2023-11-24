@@ -45,8 +45,11 @@ const LoginPage = () => {
                 navigate('/')
 			} else {
 				const errorData = await response.json();
+                console.log('heelo')
+                console.log(errorData)
 			}
 		} catch (error) {
+            console.log('heelo')
 			console.error("Error during signup:", error);
 		}
 	};
