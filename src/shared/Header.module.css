@@ -7,8 +7,9 @@
 	background-color: #121212;
 	display: flex;
 	align-items: center;
-	padding-left: 1rem;
+	padding: 0.5rem 1rem;
 	color: #e8e6e3;
+    border-bottom: 1px solid #3f3f3f;
 }
 
 .main_link {

@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+
+import styles from "./Spinner.module.css";
 
 const Spinner = () => {
-  return (
-    <div class="lds-dual-ring"></div>
-  )
-}
+	return (
+		<div className={styles.parent}>
+			<div className={styles["lds-dual-ring"]}></div>
+		</div>
+	);
+};
 
-export default Spinner
+export default Spinner;

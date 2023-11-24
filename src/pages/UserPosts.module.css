@@ -1,0 +1,9 @@
+.ul_list{
+    margin-top: 7.5vh;
+    padding: 2vh 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
